@@ -49,14 +49,14 @@
 
 @media screen and (min-width:1600px) {
     #carousel {
-        height: 480px
+        height: 560px
     }
 
     .pictures-container {
-        max-height: 480px
+        max-height: 560px
     }
     .arrows {
-        top: 188.5px
+        top: 247.5px
     }
 }
 

@@ -15,8 +15,8 @@ export default function Dropdown (props) {
                     <p><strong className="title">{name}</strong></p>
                     {open ? (<i className="fa-solid fa-angle-up open"></i>) : (<i className="fa-solid fa-angle-down close"></i>)}
                 </div>
-                {open && props.name === "Équipements" && (<div className="description">{data}</div>)}
-                {open && props.name !== "Équipements" && (<p className="description">{data}</p>)}
+                {open && name === "Équipements" && (<div className="description">{data}</div>)}
+                {open && name !== "Équipements" && (<p className="description">{data}</p>)}
             </div>
         )
 }

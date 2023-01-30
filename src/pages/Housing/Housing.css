@@ -47,6 +47,13 @@ ul {
     width: min-content
 }
 
+.explanations-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative
+}
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1025px) {
