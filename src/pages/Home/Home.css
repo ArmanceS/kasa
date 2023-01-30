@@ -1,0 +1,160 @@
+.section_1 {
+    width: 86%; /*1240px;*/
+    height: 223px;
+    border-radius: 25px;
+    background-image: 
+        linear-gradient(37deg, rgba(142,142,142,0.4431022408963585) 52%, rgba(0,0,0,0.7456232492997199) 100%), 
+        url(./../../../public/Images/Banniere-home_1440.jpg);
+    background-blend-mode: multiply;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 63px auto 43px
+}
+
+#index-title {
+    font-size: 3em; /*48px;*/
+    font-weight: 500;
+    color: #FFF;
+}
+
+.gallery {
+    width: 86%; /*1240px;*/
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.renting {
+    width: 27.779%; /*340px;*/
+    aspect-ratio: 1;
+    background: linear-gradient(0deg, rgba(105,37,37,1) 2%, rgba(255,96,96,1) 50%);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    padding: 15px 15px
+}
+
+.renting:hover {
+    cursor: pointer;
+    transform: scale(1.05)
+}
+
+.renting-title {
+    width: 70%;
+    font-size: 18px;
+    color: #FFF
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 1870px) {
+
+    .section_1 {
+        height: 260px
+    }
+    .renting {
+        width: 22%
+    }
+}
+
+@media screen and (min-width: 1441px) {
+
+    .section_1 {
+        background-image:
+        linear-gradient(37deg, rgba(142,142,142,0.4431022408963585) 52%, rgba(0,0,0,0.7456232492997199) 100%), 
+        url('./../../../public/Images/Banniere-home_2560.jpg');
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    #index-title {
+        font-size: 2.5em
+    }
+
+    .section_1 {
+        height: 158px
+    }
+
+    .renting {
+        width: 45%
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .section_1 {
+        background-position: bottom;
+        background-size: cover
+    }
+
+    #index-title{
+        width: 88%;
+        font-size: 2.2em
+    }
+
+    .renting{
+    width: 90%;
+    aspect-ratio: 2
+    }
+    
+}
+
+@media screen and (max-width: 426px) {
+
+    .section_1 {
+        width: 91.5%;
+        height: 111px;
+        background-image: 
+            linear-gradient(37deg, rgba(142,142,142,0.4431022408963585) 52%, rgba(0,0,0,0.7456232492997199) 100%), 
+            url('./../../../public/Images/Banniere-home-min.jpg');
+        background-size: cover;
+        background-position: bottom;
+        margin: 25px auto 0
+    }
+
+    #index-title {
+        font-size: 1.5em; /*24px;*/
+        padding-left: 20px;
+        margin: 0
+    }
+
+    .gallery {
+        width: 100%;
+        background-color: #FFF;
+        padding-top: 22px
+    }
+
+    .renting {
+        width: 91.5%;
+        aspect-ratio: 1.31;
+        margin-bottom: 20px
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    #index-title {
+        font-size: 1.5em /*24px;*/
+}
+}
+
+@media screen and (max-width: 321px) {
+
+    #index-title {
+        width: 84%
+        
+    }
+
+    .renting {
+        margin-bottom: 20px
+    }
+}

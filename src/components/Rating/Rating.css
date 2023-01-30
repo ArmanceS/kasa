@@ -1,0 +1,23 @@
+.rating {
+    margin-top: 20px
+}
+
+.grey{
+    color: #E3E3E3
+}
+
+.red {
+    color : #FF6060
+}
+
+.red, .grey {
+    font-size: 1.68em;
+    margin: 2px
+}
+
+@media screen and (max-width: 591px) {
+
+    .rating {
+        margin-top: 0
+}
+}

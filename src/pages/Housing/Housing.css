@@ -1,0 +1,183 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.descriptions {
+    width: 86%; /*1240px;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto 10px;
+    align-content: baseline;
+    justify-content: space-between
+}
+
+.information {
+    width: 79%
+}
+
+.lodge-title {
+    font-size: 2.25em; /*36px*/
+    margin-bottom: 0;
+    margin-top: 35px
+}
+
+.stickers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.picture {
+    border-radius: 50%;
+    width: 35%
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: flex-end;
+    margin-top: 26px;
+}
+
+.name {
+    width: min-content
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1025px) {
+    
+    .information {
+        width: 69%
+    }
+    
+    .red, .grey {
+        font-size: 1.4em
+    }
+}
+
+@media screen and (max-width: 969px) {
+
+    .stickers {
+        width: 29%
+    }
+
+    .lodge-title {
+        font-size: 2em
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .explanations {
+        width: 48%
+    }
+
+    .title, .description {
+        font-size: 1em /*16px*/
+    }
+}
+
+@media screen and (max-width: 591px) {
+
+    .information {
+        width: 100%
+    }
+
+    .location, .tag, .name {
+        font-size: 0.8em /*12px*/
+    }
+
+    .red, .grey {
+        font-size: 1.3em
+    }
+
+    .stickers {
+        width: 100%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .author {
+        margin-top: 0;
+    }
+    
+    .explanations-container {
+        flex-direction: column
+    }
+    .explanations {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .descriptions {
+        width: 90%
+    }
+
+    .lodge-title {
+        font-size: 1.5em /*24px*/
+    }
+
+    .location {
+        font-size: 0.9em /*14px*/
+    }
+
+    .tag {
+        font-size: 0.65em /*10px*/
+    }
+    
+    .stickers {
+        margin-top: 20px
+    }
+
+    .red, .grey {
+        font-size: 1.2em
+    }
+
+    .picture {
+        width: 24%
+    }
+
+    .title {
+        font-size: 0.9em /*13px*/
+    }
+
+    .close, .open  {
+        font-size: 1.6em
+    }
+
+    .description {
+        font-size: 0.8em
+    }
+    
+}
+
+@media screen and (max-width: 321px) {
+
+    .lodge-title {
+        font-size: 1.13em /*18px*/
+    }
+
+    .red, .grey {
+        font-size: 0.95em
+    }
+
+    .title {
+        font-size: 0.82em /*13px*/
+    }
+
+    .tag-container {
+        margin-top: 15px
+    }
+
+    .stickers {
+        margin-top: 15px
+    }
+}

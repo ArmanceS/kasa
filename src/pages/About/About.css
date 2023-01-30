@@ -1,0 +1,87 @@
+.banner {
+    width: 86%;
+    height: 223px;
+    background-image: url("./../../../public/Images/Banniere-about_1440.jpg");
+    background-size: cover;
+    border-radius: 25px;
+    filter: brightness(0.7);
+    margin: 49px auto 43px
+}
+
+.about .explanations {
+    width: 71%; /*1023px;*/
+    margin: 31px auto 0
+}
+
+.about .title, .about .description {
+    font-size: 1.5em /*24px*/
+}
+
+.about .dropdown {
+    height: 47px
+}
+
+.about .description {
+    padding-bottom: 20px ;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 1870px) {
+
+    .banner {
+        height: 260px
+    }
+}
+
+@media screen and (min-width: 1441px) {
+
+    .banner {
+        background-image: url('./../../../public/Images/Banniere-about_2560.jpg');
+    }
+}
+
+@media screen and (max-width: 769px){
+
+    .banner {
+        height: 158px
+    }
+
+    .about .explanations {
+        width: 86%;
+        margin-top: 25px
+    }
+
+    .dropdown .title {
+        font-size: 0.9em
+    }
+}
+
+@media screen and (max-width: 426px){
+
+    .banner {
+        width: 90%;
+        height: 223px;
+        background-image: url('./../../../public/Images/Banniere-about-min.jpg');
+        background-size: cover;
+    background-position-y: bottom
+    }
+
+    .about .explanations {
+        width: 90%;
+        margin-top: 25px
+    }
+
+    .about .description {
+        font-size: 0.8em
+    }
+    
+}
+
+@media screen and (max-width: 321px) {
+
+
+    .about .title {
+        font-size: 0.82em /*13px*/
+    }
+}
