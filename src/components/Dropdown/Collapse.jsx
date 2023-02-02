@@ -11,7 +11,7 @@ export default function Dropdown (props) {
             <div className="explanations">
                 <div className="dropdown" onClick={()=> {
                 setOpen(!open)
-            }}>
+                }}>
                     <p><strong className="title">{name}</strong></p>
                     {open ? (<i className="fa-solid fa-angle-up open"></i>) : (<i className="fa-solid fa-angle-down close"></i>)}
                 </div>
